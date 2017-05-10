@@ -1,10 +1,10 @@
 # Site settings
-title: life in transit
+title: this life is under construction
 header-img: img/home-bg.png
 email: alavia.yahya@gmail.com
 copyright_name: alavia
 description: > # this means to ignore newlines until "baseurl:"
-  making the most of the adventure
+  expect delays
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: alavia
 github_username:  alavia
