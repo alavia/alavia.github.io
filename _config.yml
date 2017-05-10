@@ -1,0 +1,21 @@
+# Site settings
+title: life in transit
+header-img: img/home-bg.png
+email: alavia.yahya@gmail.com
+copyright_name: alavia
+description: > # this means to ignore newlines until "baseurl:"
+  making the most of the adventure
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: alavia
+github_username:  alavia
+learn_profile: alavia
+email_username: alavia.yahya@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
