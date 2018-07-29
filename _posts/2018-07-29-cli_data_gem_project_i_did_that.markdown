@@ -102,6 +102,7 @@ If the user types "exit," the program will say goodbye and exit:
 ![](https://imgur.com/09NhFmI)
 
 
+
 Running my application and watching it do just what it was built to do is such a great feeling of accomplishment. I'm proud to say [I DID THAT](https://github.com/alavia/top_ten).
 
 
