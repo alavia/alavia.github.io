@@ -13,7 +13,7 @@ I'm not going to lie, just thinking about this project had me terrified before I
 And for good reason. I learned so much having to build this app on my own. 
 
 
-I wanted to build an app about something that I'm actually interested in, and since I love traveling and especially loved my  visits to Vancouver, I originally chose the website for Capilano Suspension Bridge Park. After spending a ridiculous amount of time trying to scrape that website, I met with a technical coach who said "whoever built this site really just didn't care." He was right. I didn't realize it when I chose the site, but it wasn't exactly the best for scraping and I decided to start a new project using a different website. Now I could say my time spent on the failed Cap Bridge project was a waste (and trust me, it was a LOT of time), but I think I actually learned a lot while struggling with it. When I switched to a new site, things came much more easily to me because I went over the same concepts (except in an unnecessarily complicated way) in my first project attempt. This brings me to my ACTUAL project...a gem called ["top_ten,"](https://github.com/alavia/top_ten) which teaches the user about Lonely Planet's Best in 2018 Top 10 Countries to Visit. 
+I wanted to build an app about something that I'm actually interested in, and since I love traveling and especially loved my  visits to Vancouver, I originally chose the website for Capilano Suspension Bridge Park. After spending a ridiculous amount of time trying to scrape that website, I met with a technical coach who said "whoever built this site really just didn't care." He was right. I didn't realize it when I chose the site, but it wasn't exactly the best for scraping and I decided to start a new project using a different website. Now I could say my time spent on the failed Cap Bridge project was a waste (and trust me, it was a LOT of time), but I think I actually learned a lot while struggling with it. When I switched to a new site, things came much more easily to me because I went over the same concepts (except in an unnecessarily complicated way) in my first project attempt. This brings me to my ACTUAL project...a gem called ["top_ten,"](https://github.com/alavia/top_ten) which teaches the user about Lonely Planet's Best in Travel 2018 Top 10 Countries to Visit. 
 
 Here's how it all went down...
 
@@ -89,7 +89,7 @@ Once my scraper and Top class were done, I made some adjustments to my CLI to ma
 
 Here's a look at my gem in action!
 
-When top_ten is executed, the user is greeted and given a list of Lonely Planet's Best in 2018 Top Ten Countries to Visit:
+When top_ten is executed, the user is greeted and given a list of Lonely Planet's Best in Travel 2018 Top Ten Countries to Visit:
 
 ![](https://i.imgur.com/SCQXOuU.png)
 
