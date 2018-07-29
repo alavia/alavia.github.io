@@ -39,7 +39,7 @@ Next, I created my lib files where most of my code was going to live. First, I m
 
 Understanding all of that was one my earliest hurdles in this project. I was so relieved once it all clicked!
 
-Once the environment and requirements were all up and running and as I continued to code, I added dependencies to my gemspec file (`top_ten.gemspec)`. I first started out by adding bundler and rake as development dependencies and added pry soon afterwards. Once I got to building my scraper, I added Nokogiri as a dependency as well.
+Once the environment and requirements were all up and running and as I continued to code, I added dependencies to my gemspec file (`top_ten.gemspec`). I first started out by adding bundler and rake as development dependencies and added pry soon afterwards. Once I got to building my scraper, I added Nokogiri as a dependency as well.
 
 Building my CLI class was next, and I coded a fairly simple one that could easily be tweaked as I worked on my scraper. I hardcoded a "list_countries" method that displayed a list of countries. I also created a hardcoded "menu" method that asked for user input and behaved accordingly using case statement logic (which I later changed to if/else logic). Although I didn't build a "welcome" method until later on in my coding process, I did create a "goodbye" method at that time. As I countinued building my application, I replaced the hardcoded portions of the CLI -- first with hardcoded data in my scraper, and then with actual scraped data. Next up was my scraper class.
 
