@@ -87,6 +87,21 @@ I first thought I could add each new country to `@@all` by using `@@all << new_c
 
 Once my scraper and Top class were done, I made some adjustments to my CLI to make sure it worked seamlessly with the other two classes and was exactly how I wanted it. And then...voilà! After writing all of my code and testing and debugging it over and over again...everything was working! I found the light at the end of my CLI project tunnel, and came out with a much better understanding of object oriented Ruby, scraping, and how a CLI works. 
 
+Here's a look at my gem in action!
+
+When top_ten is executed, the user is greeted and given a list of Lonely Planet's Best in 2018 Top Ten Countries to Visit:
+
+![](https://imgur.com/a/I43UTUv)
+
+The user can then enter a number for the country they would like to learn more about, or enter "list" to see the list again:
+
+![](https://imgur.com/eGgns48)
+
+If the user types "exit," the program will say goodbye and exit:
+
+![](https://imgur.com/09NhFmI)
+
+
 Running my application and watching it do just what it was built to do is such a great feeling of accomplishment. I'm proud to say [I DID THAT](https://github.com/alavia/top_ten).
 
 
