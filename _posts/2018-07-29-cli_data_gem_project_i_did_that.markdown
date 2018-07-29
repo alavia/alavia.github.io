@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Data Gem Project: I DID THAT."
-date:       2018-07-29 19:24:19 +0000
+date:       2018-07-29 15:24:19 -0400
 permalink:  cli_data_gem_project_i_did_that
 ---
 
@@ -27,9 +27,9 @@ I started building this application by using bundler (```bundle gem top_ten```) 
 * goodbye if exit
 
 Then I created my executable file (```bin/top_ten```), which lives in the bin directory. This file needs the following "shebang" line so that it's interpreted as a Ruby file:
-```
-#!/usr/bin/env ruby
-```
+
+`#!/usr/bin/env ruby`
+
 After that, I had to add executable permission in order for the file to, well, *execute*. At first my new bin file only had read and write permissions, but by running `chmod +x top_ten`, I was able to add executable permission as well.
 
 Next, I created my lib files where most of my code was going to live. First, I made `lib/top_ten.rb`, which was my environment and would contain all of my requirements. I also created three files which were each classes in my application: `cli.rb`, `scraper.rb`, and `top.rb` all of which were in my `lib/top_ten` directory. I added these classes as requirements in my environment. In the CLI class, I created a method called "call" and added a simple `puts "Hello World`" in it for the time being. Then in my bin file, I required my environment `lib/top_ten.rb` and called the CLI "call" method (`TopTen::CLI.new.call`), making sure it was printing "Hello World" and properly creating a new instance of the CLI upon execution. All of this set up the load order of the files, which is as follows: 
