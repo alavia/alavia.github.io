@@ -91,15 +91,15 @@ Here's a look at my gem in action!
 
 When top_ten is executed, the user is greeted and given a list of Lonely Planet's Best in 2018 Top Ten Countries to Visit:
 
-![](https://imgur.com/a/I43UTUv)
+![](https://i.imgur.com/SCQXOuU.png)
 
 The user can then enter a number for the country they would like to learn more about, or enter "list" to see the list again:
 
-![](https://imgur.com/eGgns48)
+![](https://i.imgur.com/udnJTr8.png)
 
 If the user types "exit," the program will say goodbye and exit:
 
-![](https://imgur.com/09NhFmI)
+![](https://i.imgur.com/Eib4hSg.png)
 
 
 
