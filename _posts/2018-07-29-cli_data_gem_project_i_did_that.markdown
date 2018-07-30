@@ -37,7 +37,7 @@ Next, I created my lib files where most of my code was going to live. First, I m
 1. `bin/top_ten` - execution point. Instantiates a new instance of the CLI and calls the "call" method in the CLI class.
 2. `lib/top_ten.rb` - required by bin file. Is the program environment. Contains requirements.
 
-Understanding all of that was one my earliest hurdles in this project. I was so relieved once it all clicked!
+Understanding all of that was one of my earliest hurdles in this project. I was so relieved once it all clicked!
 
 Once the environment and requirements were all up and running and as I continued to code, I added dependencies to my gemspec file (`top_ten.gemspec`). I first started out by adding bundler and rake as development dependencies and added pry soon afterwards. Once I got to building my scraper, I added Nokogiri as a dependency as well.
 
